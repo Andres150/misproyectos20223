@@ -1,0 +1,27 @@
+
+body{
+   text-align: center;
+    background:url("2257-paisajes.jpg")
+   
+}
+#form{
+    border: 6px solid black;
+    background:rgb(229, 231, 237);
+    width:300px;
+    height:400px;
+    padding:30px;
+    list-style:none;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+#formu{
+    color:brown;
+    margin: auto;
+    
+}
+
+li{
+    margin:30px 0px 20px 0px;
+}

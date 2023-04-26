@@ -1,0 +1,21 @@
+body{
+   text-align:center; 
+}
+#perro{
+    display:block;
+    width: 500px;
+    margin: 500px auto;
+    padding: 50px;
+    text-align: center;
+    border: 5px solid #ff0606;
+    background: #ffffff; 
+    outline: 5px dashed rebeccapurple;
+    outline-offset: 5px;
+
+ }
+
+   #eje{                                           
+    font:bold 30px verdana,sans-serif;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    color:hsla(0, 100%, 50%, 0.5);
+}

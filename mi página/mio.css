@@ -1,0 +1,120 @@
+body{
+    text-align:center;
+}
+#principalfo{
+    text-align: center;
+    background:url("2062.jpg");
+   
+    
+  
+}
+#titulo{
+    text-align:left;
+    display: block;
+    background:rgb(4, 4, 4);
+    width:  500px  500px ;
+    padding: 10px;
+    border:3px solid #2c2929;
+    text-shadow:rgb(0, 0, 0) 3px 3px 5px;
+    
+
+}
+#colortitulo{
+    font-size: 20px;
+    color: rgb(251, 4, 4);
+    
+}
+
+#link li{
+ margin: 50px 50px 50px 30px;
+display:inline-block;
+list-style:none;
+padding:5px;
+font: bold 14px verdana,sans-serif;
+color: #ff0000;
+    
+}
+#form{
+    color: red;
+}
+    
+
+
+#derecho{
+    text-align: center;
+    background:rgb(164, 178, 191);
+     border-radius: 20px;
+     color: #bab3b3;
+    
+}
+#forma{
+ clear:both;
+ border: 15px solid black;
+ padding:20px;
+ 
+}
+
+
+
+#derecho2{
+    text-align: center;
+    
+}
+#diferente blockquote{
+  display: inline-block;
+  padding: 10px;
+  color: blue;
+}
+#link2 li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(36, 165, 24);
+    margin: 50px  50px 0px 0px;
+
+}
+#clear{
+    clear: both;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 1px
+}
+
+#titulo2{
+    display: block;
+    background:rgb(0, 0, 0);
+    width: 450px auto;
+    padding: 20px;
+    border:3px solid #282626;
+
+
+}
+#color2{
+    font-size: 20px;
+ 
+    color:red;
+}
+
+
+
+
+
+
+#link2 li2{
+    margin: 50px 50px 50px 30px;
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+    font: bold 14px verdana,sans-serif;
+    color: #ff0000;
+        
+}
+#fondo{
+    background-color: rgb(83, 102, 119);
+}
+#forma2{
+    clear:both;
+ border: 15px solid black;
+ padding:20px; 
+}
+figcaption{
+    color:aqua
+}

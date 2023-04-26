@@ -1,0 +1,25 @@
+body{
+text-align:center;
+}
+
+#ej1{
+display: block;
+width: 500px;
+margin: 350px auto;
+padding:15px;
+text-align:center;
+border:29px solid #000000;
+background:#ffffff;
+border-image: url("diamonds.png")  29 stretch;
+outline: 5px dashed #ff04cd;
+outline-offset: 50px;
+
+
+}
+
+#titulo1 {
+    font: bold 36px MiNuevaFuente, verdana, sans-serif;
+     text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+    color: hsla(295, 80%, 44%, 0.5);
+    }
+    

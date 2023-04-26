@@ -1,0 +1,44 @@
+body{
+    text-align:center; 
+ }
+ #eje{
+     display:block;
+     width: 500px;
+     margin: 100px auto;
+     padding: 50px;
+     text-align: center;
+     border: 40px solid #ff0606;
+     background: #f9f9f9; 
+     border-image:url("kiss.png") 29 stretch;
+     outline: 5px dashed purple;
+     outline-offset: 5px;
+
+  }
+ 
+    #eje1{                                           
+     font:bold 30px verdana,sans-serif;
+     text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+     color:hsla(0, 100%, 50%, 0.5);
+ }
+
+#casa{
+    background: #000000;
+    color:blue;
+    height: 100px;
+    width: 500px;
+    border: 5px solid blue;
+    border-radius: 29px;
+    margin: 50px 0px 50px 500px;
+
+}
+
+#comida{
+    background: #000000;
+    color:blue;
+    height: 70px;
+    width: 400px;
+    border:5px solid red;
+    border-radius: 29px;
+    margin: 90px 0px 50px 550px;
+
+}

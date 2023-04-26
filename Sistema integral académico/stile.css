@@ -1,0 +1,77 @@
+body{
+    text-align:center;
+    background:url("2257-paisajes.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#titulo{
+   display:block;
+   text-align: center;
+   padding:20px;
+   width:960px;
+   margin: auto;
+   border: 40px solid black;
+   border-image: url("kiss.png")  29 stretch;
+ 
+}
+#menu{
+    text-align:center;
+    background: #ffffff ;
+    border:10px solid #979A9A;
+    padding:1px;
+    width:950px;
+    margin:auto;
+}
+#fotos{
+    display: inline-block;
+    margin: auto;
+}
+nav{
+
+    display: block;
+    border: 5px solid#3d3030;
+    width: 250px;
+    padding: 20px;
+    background:#ffffff;
+    display:inline-block; 
+    margin: 0px 90px 0px 90px;
+    list-style:none;
+    color:rgb(0, 0, 0);
+    
+}
+
+#Otras{
+    display: block;
+    background:rgb(255, 254, 253);
+    border:5px solid#979A9A;
+    margin:200px 0px 200px 300px;
+    width:899px;
+    padding:1px;
+
+
+}
+#foto1{
+    
+    width: 300px;
+    right: 100px;
+
+ 
+}
+#foto2{
+    
+    width: 300px;
+    right: 100px;
+    margin: 0px 180px 0px 180px;
+}
+#foto3{
+    
+    width: 300px;
+    right: 100px;
+ 
+}
+#ezio{
+    color:red
+}
+

@@ -1,0 +1,54 @@
+body{
+    text-align:center;
+    background:url("2257-paisajes.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+#div{
+    border: 6px solid black;
+    background:rgb(229, 231, 237);
+    width:300px;
+    height:400px;
+    padding:30px;
+    list-style:none;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+li{
+    margin: 50px 0px  0px 0px;
+}
+#ad{
+    border: 6px solid black;
+    background:rgb(229, 231, 237);
+    width:300px;
+    height:660px;
+    padding:30px;
+    list-style:none;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+#fami{
+    border: 6px solid black;
+    background:rgb(229, 231, 237);
+    width:300px;
+    height:200px;
+    padding:30px;
+    list-style:none;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+#AD{
+    color:red;
+}
+#FA{
+    color:red;
+}
+#DO{
+    color:red;
+}

@@ -1,0 +1,20 @@
+body{
+    text-align:center;
+}
+#pipe{
+    display:block;
+    width:500px;
+    margin: 20px auto;
+    padding: 50px;
+    text-align:center;
+    border: 29px solid #ff0000;
+    background:#72205f;
+    border-image:url("kiss.png") 29 stretch;
+}
+#pipe2{      
+font:bold 40px verdana,sans-serif;
+ text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+ color: hsl(0, 79%, 46%)
+
+}
+
