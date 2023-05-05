@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+#link a{
+    background: #05f429;
+    color:rgb(0, 0, 0);
+    border: 1px solid white;
+    text-decoration:none;
+    float:left;
+    width: 25%;
+    text-align: center;
+    padding:20px;
+}
+#link a:hover{
+    background: white;
+    border:1px solid #000000;
+    color:black;
+}
+#link2{
+float:left;
+width:9%;
+
+}
+#link2 a{
+    background: rgb(5, 244, 41);
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    text-align: center;
+    padding:20px;
+    display:block;
+
+}
+#link2 a:hover{
+    background:#ffffff;
+    border:1px solid #000000;
+    color:black;
+}
