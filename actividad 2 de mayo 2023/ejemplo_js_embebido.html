@@ -9,8 +9,13 @@
        function mostraralert(){
         alert('hizo click')
        }
+       function mostraralert2(){
+        alert('Segundo click')
+       }
+
        function hacerclic(){
           document.getElementsByTagName('p')[0].onclick=mostraralert;
+          document.getElementsByTagName('p')[1].onclick=mostraralert2;
 
        }
        window.onload=hacerclic;
@@ -18,8 +23,8 @@
 </head>
 <body>
     <div id="principal">
-      <p>Hcer click</p>
-      <p>Hcer click</p>
+      <p>Hacer click</p>
+      <p>Segundo click</p>
     </div>
 </body>
 </html>

@@ -36,3 +36,13 @@ width:9%;
     border:1px solid #000000;
     color:black;
 }
+
+#logo{
+    text-align: center;
+    margin: 0px 0px 0px 0px ;
+}
+#cultura{
+    
+    display: flex;
+    justify-content:left;
+}
