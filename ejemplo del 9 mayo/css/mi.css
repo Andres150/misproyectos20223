@@ -1,0 +1,19 @@
+.contenedor{
+   display:flex;
+   justify-content:center;
+}
+.boton{
+    border:1px solid#191981;
+    padding:10px;
+    background-color:#0400ff;
+    color:#fff;
+    border-radius:50px;
+}
+.caja_de_texto{
+    width:100px;
+    border:2px solid#000000;
+    padding:10px;
+    background-color:#bcbcbc;
+    color:#fff;
+    border-radius:50px;
+}

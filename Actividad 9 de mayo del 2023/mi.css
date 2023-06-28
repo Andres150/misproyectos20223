@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    background-image: url(fotos/images.jpg);
+}
+h1{
+    text-align: center;
+    padding:20px;
+    width: 600px;
+    margin: auto;
+    background-image: url(fotos/matematicas-e1551990337130.jpg);
+    border: 5px solid;
+    border-radius: 5px;
+    margin: 0px 0px 40px 450px;
+    
+}
+#titulo{
+    display:block;
+    background-image: url(fotos/matematicas-e1551990337130.jpg);
+    width:500px;
+    height:400px;
+    border:5px solid#de0b0b;
+    color:#00ff40;
+    margin: 0px 0px 0px 500px;
+    text-align: center;
+}
+#titulo p{
+ font:bold 15px verdana,sans-serif;
+}
+p{
+    margin: 70px 0px 0px 0px;
+}
+#mat input{
+background-color: #c1abab;
+width: 50px;
+float:center;
+margin: 60px 0px 0px 50px;
+
+}

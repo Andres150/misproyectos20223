@@ -19,7 +19,7 @@ function verificar(){
   }
 }
 function cambiarColor(){
-    let miselec=document.getElementById('cambiodecolor');
+    let miselect=document.getElementById('cambiodecolor');
     document.getElementById('numeroindice').value=miselect.selectedIndex;
     document.getElementById('textoseleccionado').value=miselect.options[miselect.selectedIndex].text;
     document.getElementById('valorasociado').value=miselect.options[miselect.selectedIndex].value;

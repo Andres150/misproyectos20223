@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase cliente</title>
+    <script src="js/Cliente.js"></script>
+</head>
+<body>
+     <form action="">
+        Nombre del Cliente: <input type="text"id="nombre">
+        <br>
+        Valor del deposito: <input type="number"id="deposito">
+        <br>
+        <input type="button"value="Crear Cuenta"onclick="crear()">
+        <br>
+        <textarea name="" id="textarea1" cols="30" rows="10"></textarea>
+     </form>
+
+     <form action="">
+        Valor:<input type="text"id="valor">
+        <input type="button"value="Depositar" onclick="depositar2()">
+        <input type="button"value="Extraer"onclick="extraer2()">
+     </form>
+
+
+
+    <script>
+        var cliente1;
+        function crear(){
+        let nombre=document.getElementById("nombre").value;
+        let deposito=parseInt(document.getElementById("deposito").value);
+        cliente1=new Cliente(nombre,deposito);
+       // document.write(cliente1.nombre+" saldo= "+cliente1.saldo+" <br>")
+        document.getElementById("textarea1").value=cliente1.nombre+" saldo= "+cliente1.saldo;
+    }
+    function depositar2(){
+        let valor=parseInt(document.getElementById("valor").value);
+        cliente1.depositar(valor);
+        document.getElementById("textarea1").value=cliente1.nombre+" saldo= "+cliente1.saldo;
+    }
+    function extraer2(){
+        let valor=parseInt(document.getElementById("valor").value);
+        cliente1.extraer(valor);
+        document.getElementById("textarea1").value=cliente1.nombre+" saldo= "+cliente1.saldo;
+    }
+       /* let cliente1;
+        cliente1=new Cliente("diego",900000);
+        cliente1.depositar(10000);
+        document.write(cliente1.nombre+" saldo= "+cliente1.saldo+" <br>");
+        let cliente2;
+        cliente2=new Cliente("Jose",100000);
+        cliente2.depositar(60000);
+        document.write(cliente2.nombre+" saldo= "+cliente2.saldo+" <br>");*/
+    </script>
+</body>
+</html>

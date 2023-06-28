@@ -2,15 +2,16 @@ function logo(){
     alert("El logo de assassin creed");
 }
 function ezio(){
-    alert("Ezio Auditore");
+alert("Eres un asesino");
+    
 }
 function alta(){
     alert("Segundo logo de assassin creed");
 }
 function canon(){
-    let pregunta=document.getElementById("pregunta").value;
-    
-    if(pregunta=2001){
+    let num1=document.getElementById("n1").value;
+    num1=parseInt(num1); 
+    if(num1=1){
         alert("Eres un Assesino");
     }
     else{

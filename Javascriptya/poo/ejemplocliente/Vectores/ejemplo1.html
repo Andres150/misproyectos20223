@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Vectores</title>
+</head>
+<body>
+    <script>
+    function Hipervinciulo(direccion,titulo)
+    {
+        this.direccion= direccion;
+        this.titulo=titulo;
+        this.retornarhipervinculo = function(){
+            let cadena;
+            cadena ='<a href='+ this.direccion +' target="_blank">' + this.titulo + '</a>';
+            return cadena;
+        }
+    }
+     let vector = new Array(3);
+     vector[0]=new Hipervinciulo("www.goolge.com","google");
+     vector[1]=new Hipervinciulo("www.msn","msn");
+     vector[2]=new Hipervinciulo("www.yahoo.com","yahoo");
+     for(let i= 0;i<vector.length;i++){
+        document.write(vector[i].retornarhipervinculo());
+        document.write("<br>")
+        let vector2 = new Array();
+        vector2.push()
+     }
+    </script>
+</body>
+</html>
